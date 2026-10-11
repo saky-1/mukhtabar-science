@@ -34,11 +34,11 @@ export function SeriesParallelSimulation() {
           <input type="number" value={voltage} min={0} step={0.1} onChange={(event) => setVoltage(Number(event.target.value))} />
         </label>
         <label>
-          R1 (Ω)
+          المقاومة الأولى (Ω)
           <input type="number" value={r1} min={0} step={0.1} onChange={(event) => setR1(Number(event.target.value))} />
         </label>
         <label>
-          R2 (Ω)
+          المقاومة الثانية (Ω)
           <input type="number" value={r2} min={0} step={0.1} onChange={(event) => setR2(Number(event.target.value))} />
         </label>
         <button
@@ -80,8 +80,8 @@ export function SeriesParallelSimulation() {
               <thead>
                 <tr>
                   <th>الوضع</th>
-                  <th>R_eq (Ω)</th>
-                  <th>I_total (A)</th>
+                  <th>المقاومة المكافئة (Ω)</th>
+                  <th>التيار الكلي (A)</th>
                 </tr>
               </thead>
               <tbody>

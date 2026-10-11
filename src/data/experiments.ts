@@ -27,8 +27,8 @@ export const experiments: ExperimentRecord[] = [
     },
     misconceptions: ['زيادة المقاومة لا تزيد التيار عند ثبات الجهد.', 'القدرة ليست ثابتة عند تغيير المقاومة.'],
     references: [
-      'Halliday, Resnick & Walker, Fundamentals of Physics, Electric Current and Resistance chapter.',
-      'Serway & Jewett, Physics for Scientists and Engineers, DC Circuits chapter.',
+      'هاليداي وريسنيك وووكر، أساسيات الفيزياء، فصل التيار والمقاومة.',
+      'سيرواي وجيويت، فيزياء للعلماء والمهندسين، فصل دوائر التيار المستمر.',
     ],
   },
   {
@@ -58,8 +58,8 @@ export const experiments: ExperimentRecord[] = [
     },
     misconceptions: ['في التوازي لا يتساوى التيار في كل فرع إذا اختلفت المقاومات.', 'المقاومة المكافئة في التوازي ليست مجموع المقاومات.'],
     references: [
-      'Tipler & Mosca, Physics for Scientists and Engineers, Electric Circuits chapter.',
-      'Horowitz & Hill, The Art of Electronics, basic resistor networks.',
+      'تيبلر وموسكا، فيزياء للعلماء والمهندسين، فصل الدوائر الكهربائية.',
+      'هورويتز وهيل، فن الإلكترونيات، شبكات المقاومات الأساسية.',
     ],
   },
   {
@@ -88,8 +88,8 @@ export const experiments: ExperimentRecord[] = [
     },
     misconceptions: ['كتلة الجسم لا تظهر في زمن السقوط ضمن هذا النموذج المثالي.', 'السرعة الابتدائية ليست غير صفرية في هذه المحاكاة.'],
     references: [
-      'OpenStax University Physics Volume 1, Motion Along a Straight Line.',
-      'Serway & Jewett, kinematics sections.',
+      'أوبن ستاكس، فيزياء جامعية الجزء الأول، الحركة في خط مستقيم.',
+      'سيرواي وجيويت، فصول الكينماتيكا.',
     ],
   },
   {
@@ -119,8 +119,8 @@ export const experiments: ExperimentRecord[] = [
     },
     misconceptions: ['لا يمكن الوصول إلى تركيز نهائي أكبر من تركيز المخزون بالتخفيف.', 'الحجم النهائي ليس بالضرورة مساويًا لحجم المخزون المستخدم.'],
     references: [
-      'Harris, Quantitative Chemical Analysis, solution preparation chapters.',
-      'Skoog et al., Fundamentals of Analytical Chemistry, concentration calculations.',
+      'هاريس، التحليل الكيميائي الكمي، فصول تحضير المحاليل.',
+      'سكوج وآخرون، أساسيات الكيمياء التحليلية، حسابات التراكيز.',
     ],
     warning:
       'هذه المحاكاة تعليمية فقط ولا تُعد دليل أمان للتجارب الواقعية. استخدم معدات الوقاية وراجع مشرف مختبر عند التطبيق العملي.',
